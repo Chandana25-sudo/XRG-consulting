@@ -1,0 +1,61 @@
+<doctype html>
+    <html>
+  <head>
+      <title>XRG training</title>
+  </head>
+  <style>
+      .a {
+          background-color: aqua;
+      }
+      .b {
+          background-color: blueviolet;
+      }
+      .c {
+          background-color: cadetblue;
+      }
+      form {
+          background-color: chocolate;
+      }
+      details {
+          background-color: crimson;
+      }
+  </style>
+  <body>
+    <div id="login-section">
+      <button id="loginButton">LOGIN</button>
+      <button id="signinButton">SIGNUP</button>
+      <p id="result"></p>
+      <p id="name"></p>
+      <button id="sum-button" onclick="document.write(9+10)">Sum</button>
+      <button id="alert-button" onclick="window.alert('123')">show alert</button>
+      <button id="console-button" onclick="console.log('123')">console button</button>
+      <div class="a">
+            <button onclick="myFunction()">Click me</button>
+
+            <p id="demo"></p>
+       </div>
+       <div class="b">
+            <select id="mySelect" onchange="change()">
+                <option value="Audi">Audi</option>
+                <option value="BMW">BMW</option>
+                <option value="Mercedes">Mercedes</option>
+                <option value="Volvo">Volvo</option>
+            </select>
+            <p id="demo1"></p>
+        </div>  
+        <div class="c">
+                <input type="text" id="fname" onkeyup="key()">
+        </div>          
+    </div>
+    <form  onsubmit="form()">
+        Enter name: <input type="text" name="fname">
+        <input type="submit" value="Submit">
+    </form>
+    <details ontoggle="toggle()">
+        <summary>Copyright 1999-2014.</summary>
+        <p> - by Refsnes Data. All Rights Reserved.</p>
+        <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+    </details>
+    <script src="index.js"></script>
+  </body>
+</html>
