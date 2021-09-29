@@ -22,7 +22,7 @@ function showAlert(){
 // function myFunction() {
 //     document.getElementById("demo").innerHTML = "Hello World";
 //   }
-  myFunction = () => {
+  let myFunction = () => {
     document.getElementById("demo").innerHTML = "Hello World";
   } 
   
@@ -31,7 +31,7 @@ function showAlert(){
   //   var x = document.getElementById("mySelect").value;
   //   document.getElementById("demo1").innerHTML = "You selected: " + x;
   // }
-  change = () => {
+  let change = () => {
     var x = document.getElementById("mySelect").value;
     document.getElementById("demo1").innerHTML = "You selected: " + x;
   }
@@ -39,20 +39,20 @@ function showAlert(){
   //   var x = document.getElementById("fname");
   //   x.value = x.value.toUpperCase();
   // }
-  key = () => {
+  let key = () => {
     var x = document.getElementById("fname");
     x.value = x.value.toUpperCase();
   }
   // function form() {
   //   alert("The form was submitted");
   // }
-  form = () => {
+  let form = () => {
     alert("The form was submitted");
   }
   // function toggle() {
   //   // alert("The ontoggle event occured");
   // }
 
-  toggle = () => {
+ let  toggle = () => {
     alert("The ontoggle event occured");
   }
