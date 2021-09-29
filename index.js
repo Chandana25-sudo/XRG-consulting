@@ -56,3 +56,20 @@ function showAlert(){
  let  toggle = () => {
     alert("The ontoggle event occured");
   }
+
+  let user_stmt = 100;
+user_stmt = car(10000, 1000);
+function car(price, discount) {
+  let final_price = price - discount;
+  console.log(final_price);
+}
+
+//arrow function
+
+let carr = (price, discount) => {
+  let final_price = price - discount;
+  window.alert("your final price is " + final_price);
+  return final_price;
+};
+let user_stmtt = carr(100000, 100);
+console.log(user_stmtt);
