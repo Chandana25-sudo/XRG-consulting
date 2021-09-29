@@ -19,21 +19,40 @@ const sum = (a,b) => {
 function showAlert(){
   window.alert('heavy rain in hyd')
 }
-function myFunction() {
+// function myFunction() {
+//     document.getElementById("demo").innerHTML = "Hello World";
+//   }
+  myFunction = () => {
     document.getElementById("demo").innerHTML = "Hello World";
-  }
+  } 
+  
 
-  function change() {
+  // function change() {
+  //   var x = document.getElementById("mySelect").value;
+  //   document.getElementById("demo1").innerHTML = "You selected: " + x;
+  // }
+  change = () => {
     var x = document.getElementById("mySelect").value;
     document.getElementById("demo1").innerHTML = "You selected: " + x;
   }
-  function key() {
+  // function key() {
+  //   var x = document.getElementById("fname");
+  //   x.value = x.value.toUpperCase();
+  // }
+  key = () => {
     var x = document.getElementById("fname");
     x.value = x.value.toUpperCase();
   }
-  function form() {
+  // function form() {
+  //   alert("The form was submitted");
+  // }
+  form = () => {
     alert("The form was submitted");
   }
-  function toggle() {
-    // alert("The ontoggle event occured");
+  // function toggle() {
+  //   // alert("The ontoggle event occured");
+  // }
+
+  toggle = () => {
+    alert("The ontoggle event occured");
   }
