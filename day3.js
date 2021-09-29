@@ -24,3 +24,14 @@ let buttonOperation = () => {
     })
     console.log("even numbers in given list are-" +even);
 }
+
+let students = [
+    {firstname: "ram",grade: 2,place : 'Ts'},
+    {firstname: "seetha",grade: 1,place : 'Ap'},
+    {firstname: "lakshmana",grade: 3,place : 'RS'}
+];
+
+students.map(student => {
+    console.log(student.firstname);
+    // console.log(student['firstname']);
+})
